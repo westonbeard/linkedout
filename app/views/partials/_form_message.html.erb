@@ -1,5 +1,5 @@
-<%= form_for [@company, @message] do |f|%>
-<%= f.hidden_field :company_id, value: @company.id %> 
+<%= form_for @message do |f|%>
+<%= f.hidden_field :company_id %> 
 <%= f.text_area :body %>
 <%= f.text_field :author %>  
 <%= f.submit %> 
