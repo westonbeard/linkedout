@@ -10,5 +10,3 @@ _Linkedout is the place where job seekers share their interest for companies._
 - I've provided the code, but unfortunately it is broken :( 
 Your job is to walk through the errors, knock them out and get the app working.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
