@@ -4,7 +4,6 @@ class CreateCompanies < ActiveRecord::Migration
     	t.string :name
     	t.text :desc
     	t.string :website
-    	t.text :img_url
     end
   end
 end
