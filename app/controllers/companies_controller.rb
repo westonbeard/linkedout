@@ -1,4 +1,5 @@
 class CompaniesController < ApplicationController
+	
 	before_action :single_company, only: [:show, :edit, :update, :destroy]
 
 	def index
